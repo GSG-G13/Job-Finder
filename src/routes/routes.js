@@ -1,8 +1,9 @@
 const router = require('express').Router();
 
-const { getHello, searchJob } = require('../controllers/index');
+const { homePage, searchJob } = require('../controllers/index');
 
-router.get('/', getHello);
-router.get('/search', searchJob);
+router.get('/', homePage);
+
+router.post('/search', searchJob);
 
 module.exports = router;
