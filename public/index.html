@@ -6,13 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Job Finder</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="images/user.svg">
 </head>
 <body>
   <div class="container">
     <h2 class="title">Find a Job</h2>
     <form action="/search" method="POST">
-      <input class="title-inp" type="text" placeholder="Enter a Job Title" required>
-      <input class="location-inp" type="text" placeholder="Enter a Location">
+      <input class="title-inp" name="title" type="text" placeholder="Enter a Job Title" required>
+      <input class="location-inp" name="location" type="text" placeholder="Enter a Location">
       <input class="submit-btn" type="submit">
     </form>
   </div>
