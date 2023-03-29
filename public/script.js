@@ -1,7 +1,7 @@
 const submitBtn = document.querySelector('.submit-btn');
 
 submitBtn.addEventListener('click', () => {
-  fetch('/home/search')
+  fetch('/search')
     .then((res) => res.json())
-    .then((res) => console.log(res));
+    .then((res) => console.log(res, 'here'));
 });
