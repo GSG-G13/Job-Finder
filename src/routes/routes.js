@@ -1,7 +1,8 @@
 const router = require('express').Router();
 
-const getHello = require('../controllers/index');
+const { getHello, searchJob } = require('../controllers/index');
 
 router.get('/', getHello);
+router.get('/search', searchJob);
 
 module.exports = router;
