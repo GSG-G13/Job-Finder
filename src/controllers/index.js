@@ -1,5 +1,7 @@
-const getHello = (req, res) => {
-  res.send('<h1> World</h1>');
+const path = require('path');
+
+const homePage = (req, res) => {
+  res.sendFile(path.join(__dirname, '..', '..', 'public', 'index.html'));
 };
 
-module.exports = getHello;
+module.exports = { homePage };
