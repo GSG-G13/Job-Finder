@@ -8,35 +8,21 @@
   <title>Job Finder</title>
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="images/user.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
   <div class="container">
     <h2 class="title">Find a Job</h2>
     <form>
-      <input required class="title-inp" name="title" type="text" placeholder="Enter a Job Title" >
+      <input required class="title-inp" name="title" type="text" placeholder="Enter a Job Title">
       <input class="location-inp" name="location" type="text" placeholder="Enter a Location">
       <input class="submit-btn" type="submit">
     </form>
   </div>
-  <div class="jobs-container">
-    <div class="card">
-      <div class="top">
-        <!-- <img src="images/ur.svg" alt=""> -->
-        <span><i class="fa-regular fa-heart"></i></span>
-      </div>
-      <div class="middel">
-        <h1>full stack javascript devloper</h1>
-        <p> full time</p>
-        <span>Company Name</span>
-      </div>
-      <div class="bottom">
-        <span>7 days</span>
-        <a href="#"><button>apply</button></a>
-      </div>
-    </div>
-  </div>
-
+  <div class="jobs-container"></div>
   <!-- Start Loading Section -->
   <div class="load">
     <div class="one"></div>
@@ -46,6 +32,8 @@
   <!-- Start Loading Section -->
 
   <div class="jobs-container"></div>
+  <script src="./javascript/dom.js"></script>
+  <script src="./javascript/logic.js"></script>
   <script src="script.js"></script>
 </body>
 

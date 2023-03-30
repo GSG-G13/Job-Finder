@@ -101,6 +101,12 @@ form input:last-child {
   justify-content: flex-end;
 }
 
+.top img {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+}
+
 .top span {
   background-color: #f2f2f2;
   border-radius: 50%;
@@ -155,13 +161,15 @@ button {
 button:hover {
   background-color: #3e8e41;
 }
+
 /* Start Loading Section */
-.load{
+.load {
   display: none;
   justify-content: center;
   margin: 10rem auto;
 }
-.load div{
+
+.load div {
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -173,16 +181,20 @@ button:hover {
   animation-iteration-count: infinite;
   animation-direction: alternate
 }
-.two{
+
+.two {
   animation-delay: 0.2s
 }
-.three{
+
+.three {
   animation-delay: 0.4s
 }
-@keyframes loading{
-  to{
-      opacity: 0.2;
-      transform: translateY(-20px)
+
+@keyframes loading {
+  to {
+    opacity: 0.2;
+    transform: translateY(-20px)
   }
 }
+
 /* End Loading Section */
