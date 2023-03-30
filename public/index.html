@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,16 +9,27 @@
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="images/user.svg">
 </head>
+
 <body>
   <div class="container">
     <h2 class="title">Find a Job</h2>
     <form>
-      <input class="title-inp" name="title" type="text" placeholder="Enter a Job Title" required>
+      <input required class="title-inp" name="title" type="text" placeholder="Enter a Job Title" >
       <input class="location-inp" name="location" type="text" placeholder="Enter a Location">
       <input class="submit-btn" type="submit">
     </form>
   </div>
+
+  <!-- Start Loading Section -->
+  <div class="load">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+  </div>
+  <!-- Start Loading Section -->
+
   <div class="jobs-container"></div>
   <script src="script.js"></script>
 </body>
+
 </html>
