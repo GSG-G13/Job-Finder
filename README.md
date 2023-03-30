@@ -61,7 +61,6 @@ You can see our demo website [Here](https://job-finder-o2oa.onrender.com).
 
 
 ## Team Members :
+- [Nada Abu Zaid](https://github.com/nada-abuzaid).
 - [Ahmed Irheem](https://github.com/ahmedirheem).
 - [Momen Marwan](https://github.com/momenmarwan).
-- [Nada Abu Zaid](https://github.com/nada-abuzaid).
-
