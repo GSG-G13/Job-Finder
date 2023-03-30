@@ -22,7 +22,7 @@ const createCard = (job) => {
   const div = createHtmlElement('div', 'card');
   const topDiv = createHtmlElement('div', 'top');
   const middelDiv = createHtmlElement('div', 'middel');
-  const bottomDiv = createHtmlElement('div', 'middel');
+  const bottomDiv = createHtmlElement('div', 'bottom');
   const img = createHtmlElement('img');
   img.setAttribute('src', `${job.employer_logo}`);
   const span = createHtmlElement('span');
