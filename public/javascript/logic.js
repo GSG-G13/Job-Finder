@@ -1,6 +1,7 @@
 const searchForm = document.querySelector('form');
 const titleInp = document.querySelector('.title-inp');
 const locationInp = document.querySelector('.location-inp');
+const jobsContainer = document.querySelector('.jobs-container');
 
 function openLoader() {
   document.querySelector('.load').style.display = 'flex';
@@ -20,6 +21,10 @@ searchForm.addEventListener('submit', (e) => {
       closeLoader();
       titleInp.value = '';
       locationInp.value = '';
-      console.log(res);
+      const data = res.data;
+      data.forEach((job) => {
+       const card = createCard(job)
+       appendChildren(jobsContainer, card)
+      });
     });
 });
