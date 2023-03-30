@@ -18,8 +18,7 @@ You can see our demo website [Here](https://country-weather.onrender.com/).
 
 ## User Stories 📚
 
-- As a user, I should be able to Search for a weather by country or city name.
-- As a user, I should be able to see weather temprature and windspeed in the search country/city.
+- As a job seeker, I want to be able to search for job openings by location and job title so that I can easily find relevant job listings in my desired area. Additionally, I would like to be able to filter search results by company, salary range, and job type to further narrow down my options. Finally, I want to be able to save job listings for later viewing and receive email alerts when new jobs matching my search criteria are posted, so that I can stay up-to-date with the latest job openings and easily keep track of my job search progress.
 
 ---
 
