@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap%27');
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 :root {
@@ -72,6 +75,26 @@ form input:not(:last-child) {
 
 form input:last-child {
   cursor: pointer;
+}
+
+/* text-decoration: none; */
+.favourite-page {
+  color: var(---main-color);
+  font-size: 1.2rem;
+  display: block;
+  text-align: right;
+  margin: 1rem auto;
+  width: 80%;
+  max-width: 1000px;
+}
+
+.fav-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1000px;
+  margin: 2rem auto;
 }
 
 
@@ -159,7 +182,8 @@ button {
 }
 
 button:hover {
-  background-color: #3e8e41;
+  background: rgb(35, 9, 57);
+  background: linear-gradient(45deg, rgba(35, 9, 57, 1) 34%, rgba(110, 57, 155, 1) 100%);
 }
 
 /* Start Loading Section */
