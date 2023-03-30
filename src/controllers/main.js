@@ -1,4 +1,5 @@
 const path = require('path');
+const fetch = require('node-fetch');
 
 const homePage = (req, res) => {
   res.sendFile(path.join(__dirname, '..', '..', 'public', 'index.html'));
